@@ -155,52 +155,7 @@ exemplo.*/
 
 
 
-/*   public static void gasolina() {
 
-
-Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes. Escreva
-um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 1.Álcool 2.Gasolina 3.Diesel
-4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser solicitado um novo código (até
-que seja válido). O programa será encerrado quando o código informado for o número 4. Deve ser escrito a
-mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme
-exemplo.
-
-Scanner sc = new Scanner(System.in);
-
-int cliente;
-int alcool = 0;
-int gasolina = 0;
-int diesel = 0;
-
-        System.out.println("1 - Álcool\n");
-        System.out.println("2 - Gasolina\n");
-        System.out.println("3 - Diesel");
-        System.out.println("4 - fim\n");
-        System.out.println("Escolha o produto:");
-
-cliente = sc.nextInt();
-
-        if (cliente == 1) {
-alcool += 1;
-        }
-        else if (cliente ==2){
-gasolina +=1;
-        }
-        else if (cliente ==3){
-diesel +=1;
-        }
-
-        while (cliente < 4) {
-cliente = sc.nextInt();
-            if (cliente > 4) {
-        System.out.println("MUITO OBRIGADO");
-                System.out.printf("Alcool: " + alcool);
-            }
-
-
-                    }
-
-                    }*/
 
 
 
